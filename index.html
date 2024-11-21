@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open 500 Windows</title>
+  <script>
+    window.onload = function () {
+      const url = "https://i.namu.wiki/i/csS3_ePfz-m2w7jIWJGyXki8TqlKqY-MzxHbT_Pu-imrUDYG-hl3ljigViHA-idtRfxhX-H1W0DFFtC8tf9twQ.webp"; // https://i.namu.wiki/i/csS3_ePfz-m2w7jIWJGyXki8TqlKqY-MzxHbT_Pu-imrUDYG-hl3ljigViHA-idtRfxhX-H1W0DFFtC8tf9twQ.webp
+      for (let i = 0; i < 500; i++) {
+        window.open(
+          url,
+          "_blank",
+          "width=600,height=400,left=" + (i * 10) + ",top=" + (i * 10)
+        );
+      }
+    };
+  </script>
+</head>
+<body>
+  <h1>Opening 500 windows...</h1>
+  <p>If the windows do not open, your browser may be blocking pop-ups.</p>
+</body>
+</html>
